@@ -6,6 +6,14 @@ In the naive approach to KDE, the kernel pdf is evaluated for every known data p
 
 `ApproximateKernelDensity` uses a Gaussian kernel with (configurable) standard deviation 1.0.  Its `std_cutoff` parameter determines how many standard deviations away a point should be before being ignored, and defaults to 5.
 
+## Install
+
+```bash
+sudo pip install kdense
+```
+
+## Example
+
 ```python
 from kdense import ApproximateKernelDensity
 import numpy as np
