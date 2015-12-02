@@ -12,7 +12,7 @@ setup(
     url="http://github.com/scivey/kdense",
     maintainer="Scott Ivey",
     maintainer_email="scott.ivey@gmail.com",
-    packages=['kdense', 'relevanced_client.gen_py'],
+    packages=['kdense'],
     package_dir={'kdense': 'kdense'},
     install_requires=['scipy>=0.15.1', 'numpy>=1.10.1']
 )
